@@ -1,0 +1,34 @@
+{
+  "name": "lawful-stamps",
+  "version": "0.0.1",
+  "description": "Allows the configuration of the default map note icons in FoundryVTT",
+  "main": "esmodules/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Parasrah/lawful-stamps.git"
+  },
+  "keywords": [
+    "foundryvtt",
+    "stamps",
+    "module"
+  ],
+  "author": "parasrah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Parasrah/lawful-stamps/issues"
+  },
+  "homepage": "https://github.com/Parasrah/lawful-stamps#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "prettier": "^2.2.1"
+  }
+}
