@@ -4,7 +4,7 @@ const defaultIcons = CONFIG.JournalEntry.noteIcons
 
 function propagate(json) {
   if (json) {
-    const js = JSON.parse(value)
+    const js = JSON.parse(json)
     CONFIG.JournalEntry.noteIcons = js
   } else {
     CONFIG.JournalEntry.noteIcons = defaultIcons
