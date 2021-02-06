@@ -2,10 +2,12 @@ const module = 'lawful-stamps'
 
 const defaultIcons = CONFIG.JournalEntry.noteIcons
 
-function maybePropagate(json) {
+function propagate(json) {
   if (json) {
     const js = JSON.parse(value)
     CONFIG.JournalEntry.noteIcons = js
+  } else {
+    CONFIG.JournalEntry.noteIcons = defaultIcons
   }
 }
 
@@ -16,10 +18,10 @@ game.settings.register(module, 'override', {
   config: false,
   type: String,
   default: '',
-  onChange: maybePropagate,
+  onChange: propagate,
 })
 
 Hooks.on('ready', () => {
   const iconOverride = game.settings.get(module, 'override')
-  maybePropagate(iconOverride)
+  propagate(iconOverride)
 })
