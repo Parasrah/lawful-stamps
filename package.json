@@ -1,6 +1,6 @@
 {
   "name": "lawful-stamps",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Allows the configuration of the default map note icons in FoundryVTT",
   "main": "esmodules/index.js",
   "scripts": {
