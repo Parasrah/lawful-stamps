@@ -1,0 +1,3 @@
+= Lawful Stamps
+
+This mod is currently under development, and is not yet intended for the average person to use. It currently requires technical knowledge to use, as there is no interface to configure what stamps are used.

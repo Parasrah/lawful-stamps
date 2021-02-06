@@ -1,0 +1,19 @@
+{
+  "name": "lawful-stamps",
+  "title": "Lawful Stamps",
+  "description": "Allows the configuration of the default map note icons",
+  "author": "Parasrah",
+  "version": "0.0.1",
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion": "0.7.9",
+  "system": "dnd5e",
+  "download": "https://github.com/Parasrah/lawful-stamps/releases/latest/download/lawful-stamps.zip",
+  "manifest": "https://raw.githubusercontent.com/Parasrah/lawful-stamps/master/module.json",
+  "url": "https://github.com/Parasrah/lawful-stamps",
+  "bugs": "https://github.com/Parasrah/lawful-stamps/issues",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "esmodules": [
+    "esmodules/index.js"
+  ]
+}
