@@ -11,14 +11,16 @@ function propagate(json) {
   }
 }
 
-game.settings.register(module, 'override', {
-  name: 'Icon Overrides',
-  hint: 'Override the default icons for map notes',
-  scope: 'world',
-  config: false,
-  type: String,
-  default: '',
-  onChange: propagate,
+Hooks.on('init', () => {
+  game.settings.register(module, 'override', {
+    name: 'Icon Overrides',
+    hint: 'Override the default icons for map notes',
+    scope: 'world',
+    config: false,
+    type: String,
+    default: '',
+    onChange: propagate,
+  })
 })
 
 Hooks.on('ready', () => {
